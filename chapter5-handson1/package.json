@@ -14,5 +14,10 @@
     "@types/node": "^20.19.25",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "^3.0.13",
+    "@mastra/core": "^0.15.2",
+    "mastra": "^0.11.3"
   }
 }
