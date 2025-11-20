@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Mastraワークフローインスタンスを取得
-    const { mastra } = await import("@/src");
+    const { mastra } = await import("@/src/mastra");
     const workflow = mastra.getWorkflow("handsonWorkflow");
 
     if (!workflow) {
