@@ -6,7 +6,6 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { query, owner, repo } = body;
 
-
     // バリデーションを実施（パラメーターが不足していたらエラーを返す）
     if (!query || !owner || !repo) {
       return NextResponse.json(
